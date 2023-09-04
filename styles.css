@@ -1,0 +1,101 @@
+/* Basic Resets */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D3D3D3;
+    color: #002366;
+    line-height: 1.6;
+    margin: 16px;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3 {
+    font-style: italic;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #002366;
+    padding: 16px 0;
+}
+
+nav a {
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #DAA520;
+}
+
+/* Buttons */
+button {
+    background-color: #DAA520;
+    color: #002366;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DAA520;
+    color: #FFFFFF;
+}
+
+/* Cards for articles/sections */
+.card {
+    background-color: #D3D3D3;
+    color: #002366;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #002366;
+    color: #DAA520;
+    text-align: center;
+    padding: 16px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 480px) {
+    /* Mobile styles here */
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet styles here */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Desktop styles here */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Large desktop styles above 1024px here */
+}

@@ -83,19 +83,38 @@ footer {
     padding: 16px 0;
 }
 
-/* Media Queries for Responsiveness */
-@media screen and (max-width: 480px) {
-    /* Mobile styles here */
+img {
+    max-width: 200px;
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    /* Tablet styles here */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Desktop styles here */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
 }
 
-@media screen and (min-width: 1025px) {
-    /* Large desktop styles above 1024px here */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
 }
